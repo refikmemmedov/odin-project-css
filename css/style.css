@@ -125,3 +125,51 @@ main h1 {
     float: right;
     font-weight: 900;
 }
+
+.artcl2 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+}    
+
+.blue {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.action > p:first-child {
+    font-size: 30px;
+}
+
+.action > p:last-child {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.sign > button {
+    padding: 10px 36px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
